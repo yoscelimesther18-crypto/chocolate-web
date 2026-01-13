@@ -3,25 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- SEO -->
-<meta name="description" content="Chocolates artesanales premium. Una experiencia dulce, elegante y única.">
-<meta name="author" content="Delicious Chocolate">
 
-<!-- no se me puede olvidar arreglar el enlace del website -->
-<meta property="og:title" content="Delicious Chocolate 🍫">
-<meta property="og:description" content="La experiencia más dulce de tu vida. Chocolate artesanal premium.">
-<meta property="og:image" content="https://TU-USUARIO.github.io/TU-REPO/Imagenes/portada.jpg">
-<meta property="og:url" content="https://TU-USUARIO.github.io/TU-REPO/">
-<meta property="og:type" content="website">
+  <!-- SEO básico -->
+  <meta name="description" content="Chocolates artesanales premium. Una experiencia dulce, elegante y única.">
+  <meta name="author" content="Delicious Chocolate">
 
-<!-- twitter -->
-<meta name="twitter:card" content="summary_large_image">
+  <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+  <meta property="og:title" content="Delicious Chocolate 🍫">
+  <meta property="og:description" content="La experiencia más dulce de tu vida. Chocolate artesanal premium.">
+  <meta property="og:image" content="https://yoscelimesther18-crypto.github.io/chocolate-web/Imagenes/portada.jpg">
+  <meta property="og:url" content="https://yoscelimesther18-crypto.github.io/chocolate-web/">
+  <meta property="og:type" content="website">
 
-  <title>Delicious Chocolate</title>
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Delicious Chocolate 🍫">
+  <meta name="twitter:description" content="Chocolate artesanal premium. Dulce, elegante y único.">
+  <meta name="twitter:image" content="https://yoscelimesther18-crypto.github.io/chocolate-web/Imagenes/portada.jpg">
 
-  <link rel="icon" type="image/png" href="Imagenes/logo.png">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="CSS/style.css">
 
 </head>
 
@@ -162,7 +161,7 @@ En cada tableta, bombón o creación, encontrarás nuestra esencia: calidad, cre
     });
   });
 
-  // Formulario 
+  // formulario 
   const form = document.getElementById('contactForm');
   const successMsg = document.getElementById('formSuccess');
 
@@ -172,7 +171,7 @@ En cada tableta, bombón o creación, encontrarás nuestra esencia: calidad, cre
     form.reset(); // limpia campos
     successMsg.classList.add('show');
 
-    // Ocultar mensaje después de 4 segundos
+    // ocultar mensaje después de 4 segundos
     setTimeout(() => {
       successMsg.classList.remove('show');
     }, 4000);
