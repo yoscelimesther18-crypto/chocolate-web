@@ -307,3 +307,17 @@ footer {
   color: var(--accent);
   white-space: nowrap;
 }
+
+/* Instagram link: mismo color siempre */
+.ig-link,
+.ig-link:visited,
+.ig-link:hover,
+.ig-link:active {
+  color: #e1306c !important;
+  text-decoration: none;
+}
+
+.ig-link i {
+  color: #e1306c !important;
+  font-size: 1.5em;
+}
