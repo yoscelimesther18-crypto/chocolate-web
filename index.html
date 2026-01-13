@@ -11,7 +11,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="CSS/style.css">
 
-  <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+  <!-- Open Graph -->
   <meta property="og:title" content="Delicious Chocolate 🍫">
   <meta property="og:description" content="La experiencia más dulce de tu vida. Chocolate artesanal premium.">
   <meta property="og:image" content="https://yoscelimesther18-crypto.github.io/chocolate-web/Imagenes/portada.jpg">
@@ -23,164 +23,161 @@
   <meta name="twitter:title" content="Delicious Chocolate 🍫">
   <meta name="twitter:description" content="Chocolate artesanal premium. Dulce, elegante y único.">
   <meta name="twitter:image" content="https://yoscelimesther18-crypto.github.io/chocolate-web/Imagenes/portada.jpg">
-
-
 </head>
 
 <body>
 
-  <!-- video de apertura -->
+  <!-- Video de apertura -->
   <video class="choco-intro" autoplay muted playsinline>
     <source src="videos/chocolate.mp4" type="video/mp4">
   </video>
 
-<header>
-  <nav>
-    <div class="logo">
-      <img src="Imagenes/logo.png" alt="Delicious Chocolate">
-      <span>Delicious Chocolate</span>
-    </div>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="Imagenes/logo.png" alt="Delicious Chocolate">
+        <span>Delicious Chocolate</span>
+      </div>
 
-    <ul>
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#servicios">Servicios</a></li>
-      <li><a href="#productos">Productos</a></li>
-      <li><a href="#sobre">Sobre nosotros</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ul>
-  </nav>
-</header>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#sobre">Sobre nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-
-
+  <!-- Hero -->
   <section class="hero" id="inicio">
     <div class="hero-text">
       <h2>La experiencia más <span>dulce</span> de tu vida</h2>
-      <p>Disfruta del arte del chocolate: puro, artesanal y lleno de sabor. Un viaje de placer para tus sentidos.</p>
+      <p>
+        Disfruta del arte del chocolate: puro, artesanal y lleno de sabor.
+        Un viaje de placer para tus sentidos.
+      </p>
       <button class="btn" onclick="document.getElementById('productos').scrollIntoView({ behavior: 'smooth' })">
-  Descubre nuestros chocolates
-</button>
-
-
+        Descubre nuestros chocolates
+      </button>
     </div>
+
     <div class="hero-card">
       <h3>Chocolate Premium</h3>
-      <p>Chocolate de la más alta calidad, con el sabor más refinado, ideal para los paladares más exigentes.</p>
+      <p>
+        Chocolate de la más alta calidad, con el sabor más refinado,
+        ideal para los paladares más exigentes.
+      </p>
     </div>
   </section>
 
-<section id="servicios">
-  <h2>Servicios</h2>
+  <!-- Servicios -->
+  <section id="servicios">
+    <h2>Servicios</h2>
 
-  <div class="grid">
-    <div class="card">
-      <img src="Imagenes/chocoartesanal.png" alt="Chocolate artesanal">
-      <h4>Chocolates Artesanales</h4>
-      <p>Chocolates hechos a mano con recetas tradicionales y modernas.</p>
-    </div>
+    <div class="grid">
+      <div class="card">
+        <img src="Imagenes/chocoartesanal.png" alt="Chocolate artesanal">
+        <h4>Chocolates Artesanales</h4>
+        <p>Chocolates hechos a mano con recetas tradicionales y modernas.</p>
+      </div>
 
-    <div class="card">
-      <img src="Imagenes/chocopersonalizacion.png" alt="Personalización de chocolate">
-      <h4>Personalización de Regalos</h4>
-      <p>Regala chocolate en su presentación más elegante.</p>
-    </div>
+      <div class="card">
+        <img src="Imagenes/chocopersonalizacion.png" alt="Personalización de chocolate">
+        <h4>Personalización de Regalos</h4>
+        <p>Regala chocolate en su presentación más elegante.</p>
+      </div>
 
-    <div class="card">
-      <img src="Imagenes/chocotaller.png" alt="Taller de chocolate">
-      <h4>Experiencias Culinarias</h4>
-      <p>Catas y talleres para conocer todo sobre este delicioso manjar.</p>
-    </div>
-</section>
-
-
-
-<section id="productos">
-  <h2>Productos Destacados</h2>
-  <div class="grid">
-    <div class="card">
-      <img src="Imagenes/chocooscuro.png" alt="Chocolate Oscuro 70%">
-      <h4>Chocolate Oscuro 70%</h4>
-      <p>Intenso, profundo y lleno de sabor. Ideal para los amantes del buen chocolate.</p>
-    </div>
-    <div class="card">
-      <img src="Imagenes/chocobombom.png" alt="Bombones Rellenos">
-      <h4>Bombones Rellenos</h4>
-      <p>Exquisitos bombones con rellenos que te sorprenderán.</p>
-    </div>
-    <div class="card">
-      <img src="Imagenes/chocoblanco.png" alt="Chocolate Blanco con Frutas">
-      <h4>Chocolate Blanco con Frutas</h4>
-      <p>Una combinación única que fusiona lo dulce con lo fresco.</p>
-    </div>
-  </div>
-</section>
-
-
+      <div class="card">
+        <img src="Imagenes/chocotaller.png" alt="Taller de chocolate">
+        <h4>Experiencias Culinarias</h4>
+        <p>Catas y talleres para conocer todo sobre este delicioso manjar.</p>
+      </div>
     </div>
   </section>
 
+  <!-- Productos -->
+  <section id="productos">
+    <h2>Productos Destacados</h2>
+
+    <div class="grid">
+      <div class="card">
+        <img src="Imagenes/chocooscuro.png" alt="Chocolate Oscuro 70%">
+        <h4>Chocolate Oscuro 70%</h4>
+        <p>Intenso, profundo y lleno de sabor.</p>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/chocobombom.png" alt="Bombones Rellenos">
+        <h4>Bombones Rellenos</h4>
+        <p>Exquisitos bombones con rellenos que te sorprenderán.</p>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/chocoblanco.png" alt="Chocolate Blanco con Frutas">
+        <h4>Chocolate Blanco con Frutas</h4>
+        <p>Una combinación única que fusiona lo dulce con lo fresco.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre nosotros -->
   <section class="about" id="sobre">
-    <h2>Sobre nosotros</h2><br>
-    <p>En Delicious Chocolate creemos que el chocolate es mucho más que un dulce: es una experiencia, un arte y una forma de conectar emociones. Cada una de nuestras creaciones nace de la pasión por el detalle, el respeto por los ingredientes y el amor por los procesos artesanales.
-<br><br>
-Seleccionamos cuidadosamente cacao de alta calidad y lo transformamos mediante técnicas tradicionales combinadas con innovación, logrando sabores intensos, equilibrados y memorables. Nuestro compromiso es ofrecer chocolates que despierten los sentidos y conviertan cada momento en algo especial.
-<br><br>
-Más allá del producto, buscamos crear experiencias únicas: desde chocolates personalizados hasta catas y talleres que invitan a descubrir el verdadero mundo del chocolate. Creemos en el trabajo hecho con dedicación, en la elegancia de lo simple y en el placer auténtico.
-<br><br>
-En cada tableta, bombón o creación, encontrarás nuestra esencia: calidad, creatividad y pasión por el chocolate.</p>
+    <h2>Sobre nosotros</h2>
+    <p>
+      En Delicious Chocolate creemos que el chocolate es mucho más que un dulce:
+      es una experiencia, un arte y una forma de conectar emociones.
+      <br><br>
+      Seleccionamos cacao de alta calidad y lo transformamos con técnicas
+      artesanales e innovación.
+      <br><br>
+      Cada creación refleja nuestra esencia: calidad, creatividad y pasión.
+    </p>
   </section>
 
-<section class="contact" id="contacto">
-  <h2>Contacto</h2>
+  <!-- Contacto -->
+  <section class="contact" id="contacto">
+    <h2>Contacto</h2>
 
-  <form id="contactForm">
-    <input type="text" placeholder="Nombre" required>
-    <input type="email" placeholder="Correo electrónico" required>
-    <textarea rows="4" placeholder="Mensaje" required></textarea>
+    <form id="contactForm">
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <textarea rows="4" placeholder="Mensaje" required></textarea>
+      <button class="btn" type="submit">Enviar mensaje</button>
+    </form>
 
-    <button class="btn" type="submit">Enviar mensaje</button>
-  </form>
+    <p id="formSuccess" class="form-success">
+      ¡Mensaje enviado correctamente! 🍫
+    </p>
+  </section>
 
-  <p id="formSuccess" class="form-success">
-    ¡Mensaje enviado correctamente! 🍫
-  </p>
-</section>
-
-
+  <!-- Footer -->
   <footer>
     © 2025 · Delicious Chocolate · Hecho con ❤️ · 📞 316 989 77 32 · 📸 _yoxsindefensis
   </footer>
 
- <script>
-  // Scroll suave
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      e.preventDefault();
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth'
+  <!-- Scripts -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
       });
     });
-  });
 
-  // formulario 
-  const form = document.getElementById('contactForm');
-  const successMsg = document.getElementById('formSuccess');
+    const form = document.getElementById('contactForm');
+    const successMsg = document.getElementById('formSuccess');
 
-  form.addEventListener('submit', function(e) {
-    e.preventDefault(); // evita recargar la pagina
-
-    form.reset(); // limpia campos
-    successMsg.classList.add('show');
-
-    // ocultar mensaje después de 4 segundos
-    setTimeout(() => {
-      successMsg.classList.remove('show');
-    }, 4000);
-  });
-
-
-</script>
-
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      form.reset();
+      successMsg.classList.add('show');
+      setTimeout(() => successMsg.classList.remove('show'), 4000);
+    });
+  </script>
 
 </body>
 </html>
